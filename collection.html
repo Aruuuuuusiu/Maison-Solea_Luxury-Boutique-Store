@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection - Maíson Solea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navigation-header">
+        <a href="index.html" class="navigation-logo">Maíson Solea</a>
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="collection.html" class="navigation-link active">Collection</a></li>
+                <li><a href="about.html" class="navigation-link">Our Story</a></li>
+                <li><a href="index.html#testimonials" class="navigation-link">Testimonials</a></li>
+                <li><a href="contact.html" class="navigation-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="navigation-utilities">
+            <button class="btn-icon" id="size-guide-btn">
+                Size Guide
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Collection Hero -->
+    <section class="collection-hero">
+        <div class="container">
+            <h1 class="hero-large">The Collection</h1>
+            <p class="body-large">Discover our complete range of meticulously crafted footwear</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-container">
+                <div class="filter-group">
+                    <label class="filter-label body-regular">Category</label>
+                    <select class="filter-select">
+                        <option>All Styles</option>
+                        <option>Heels</option>
+                        <option>Flats</option>
+                        <option>Loafers</option>
+                        <option>Boots</option>
+                        <option>Sandals</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label body-regular">Color</label>
+                    <select class="filter-select">
+                        <option>All Colors</option>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>Beige</option>
+                        <option>Metallic</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label body-regular">Sort By</label>
+                    <select class="filter-select">
+                        <option>Featured</option>
+                        <option>Newest</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="section-padding-small">
+        <div class="container">
+            <div class="products-grid">
+                <a href="product.html" class="product-card-link" data-category="heels" data-color="metallic" data-price="495" data-order="1">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.unsplash.com/photo-1581101767113-1677fc2beaa8" alt="Glitter Heels">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Luminous Evening Heels</h3>
+                            <p class="product-card-description">Rose gold finish with artisanal detailing</p>
+                            <p class="product-price">$495</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="heels" data-color="brown" data-price="425" data-order="2">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.unsplash.com/photo-1519226719127-9e805abb99b1" alt="Brown Stilettos">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Classic Pointed Stilettos</h3>
+                            <p class="product-card-description">Timeless elegance in premium leather</p>
+                            <p class="product-price">$425</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="sandals" data-color="beige" data-price="380" data-order="3">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.unsplash.com/photo-1709282028322-35c1fb068ef8" alt="Designer Sandals">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Architectural Sandals</h3>
+                            <p class="product-card-description">Contemporary design meets comfort</p>
+                            <p class="product-price">$380</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="loafers" data-color="brown" data-price="340" data-order="4">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.unsplash.com/photo-1760616172899-0681b97a2de3" alt="Luxury Loafers">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Refined Leather Loafers</h3>
+                            <p class="product-card-description">Sophisticated simplicity for every day</p>
+                            <p class="product-price">$340</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="boots" data-color="black" data-price="520" data-order="5">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.pexels.com/photos/34973968/pexels-photo-34973968.jpeg" alt="Premium Footwear">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Contemporary Boots</h3>
+                            <p class="product-card-description">Modern silhouette with lasting quality</p>
+                            <p class="product-price">$520</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="heels" data-color="black" data-price="450" data-order="6">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.pexels.com/photos/35034734/pexels-photo-35034734.jpeg" alt="Luxury Collection">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Signature Pumps</h3>
+                            <p class="product-card-description">Iconic style for the modern woman</p>
+                            <p class="product-price">$450</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="flats" data-color="beige" data-price="295" data-order="7">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.pexels.com/photos/9634534/pexels-photo-9634534.jpeg" alt="Lifestyle Footwear">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Essential Flats</h3>
+                            <p class="product-card-description">Effortless sophistication</p>
+                            <p class="product-price">$295</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product.html" class="product-card-link" data-category="heels" data-color="metallic" data-price="365" data-order="8">
+                    <div class="product-card">
+                        <img class="product-card-image" src="https://images.pexels.com/photos/26861954/pexels-photo-26861954.jpeg" alt="Luxury Option">
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Statement Mules</h3>
+                            <p class="product-card-description">Bold yet refined design</p>
+                            <p class="product-price">$365</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Maíson Solea</h3>
+                    <p class="body-small">Exceptional craftsmanship since 1990</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="collection.html">All Products</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" id="size-guide-footer">Size Guide</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Care Instructions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="body-small">© 2025 Maíson Solea. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Size Guide Modal -->
+    <div class="modal" id="size-guide-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <h2 class="heading-2">Size Guide</h2>
+            <p class="body-regular">Find your perfect fit</p>
+            
+            <div class="size-guide-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>US</th>
+                            <th>UK</th>
+                            <th>EU</th>
+                            <th>CM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>2.5</td>
+                            <td>35</td>
+                            <td>22.0</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>3.5</td>
+                            <td>36</td>
+                            <td>22.5</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>4.5</td>
+                            <td>37</td>
+                            <td>23.5</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>5.5</td>
+                            <td>38</td>
+                            <td>24.0</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>6.5</td>
+                            <td>39</td>
+                            <td>25.0</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>7.5</td>
+                            <td>40</td>
+                            <td>25.5</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>8.5</td>
+                            <td>41</td>
+                            <td>26.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="body-small size-guide-note">For half sizes, we recommend sizing up. If you need assistance, our team is happy to help.</p>
+        </div>
+    </div>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget" id="chat-widget">
+        <button class="chat-button" id="chat-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <h3 class="body-regular">How can we assist you?</h3>
+                <button class="chat-close" id="chat-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="chat-message chat-message-received">
+                    <p class="body-small">Welcome to Maíson Solea. How may we help you today?</p>
+                </div>
+            </div>
+            <form class="chat-input-form" id="chat-form">
+                <input type="text" class="chat-input" id="chat-input" placeholder="Type your message...">
+                <button type="submit" class="chat-send">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

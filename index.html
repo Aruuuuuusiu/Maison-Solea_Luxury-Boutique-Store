@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maíson Solea - Luxury Shoe Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navigation-header">
+        <a href="#" class="navigation-logo">Maíson Solea</a>
+        <nav class="navigation-menu">
+            <ul>
+                <li><a href="collection.html" class="navigation-link">Collection</a></li>
+                <li><a href="about.html" class="navigation-link">Our Story</a></li>
+                <li><a href="#testimonials" class="navigation-link">Testimonials</a></li>
+                <li><a href="contact.html" class="navigation-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="navigation-utilities">
+            <button class="btn-icon" id="size-guide-btn">
+                Size Guide
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container grid-two-column">
+            <div class="hero-content">
+                <h1 class="hero-large">Crafted elegance for the discerning</h1>
+                <p class="body-large">Each pair represents the pinnacle of artisanal craftsmanship, where time-honored techniques meet contemporary refinement.</p>
+                <a href="collection.html" class="btn-primary" style="text-decoration: none;">Discover the collection</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1581101767113-1677fc2beaa8" alt="Luxury footwear showcase">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Carousel -->
+    <section class="section-padding" id="collection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="heading-1">Featured Collection</h2>
+                <p class="body-regular">Exceptional designs for every occasion</p>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn carousel-btn-prev" aria-label="Previous">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.unsplash.com/photo-1581101767113-1677fc2beaa8" alt="Glitter Heels">
+                            <h3 class="product-card-title">Luminous Evening Heels</h3>
+                            <p class="product-card-description">Rose gold finish with artisanal detailing</p>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.unsplash.com/photo-1519226719127-9e805abb99b1" alt="Brown Stilettos">
+                            <h3 class="product-card-title">Classic Pointed Stilettos</h3>
+                            <p class="product-card-description">Timeless elegance in premium leather</p>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.unsplash.com/photo-1709282028322-35c1fb068ef8" alt="Designer Sandals">
+                            <h3 class="product-card-title">Architectural Sandals</h3>
+                            <p class="product-card-description">Contemporary design meets comfort</p>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.unsplash.com/photo-1760616172899-0681b97a2de3" alt="Luxury Loafers">
+                            <h3 class="product-card-title">Refined Leather Loafers</h3>
+                            <p class="product-card-description">Sophisticated simplicity for every day</p>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.pexels.com/photos/34973968/pexels-photo-34973968.jpeg" alt="Premium Footwear">
+                            <h3 class="product-card-title">Contemporary Boots</h3>
+                            <p class="product-card-description">Modern silhouette with lasting quality</p>
+                        </div>
+                        <div class="product-card">
+                            <img class="product-card-image" src="https://images.pexels.com/photos/35034734/pexels-photo-35034734.jpeg" alt="Luxury Collection">
+                            <h3 class="product-card-title">Signature Pumps</h3>
+                            <p class="product-card-description">Iconic style for the modern woman</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn carousel-btn-next" aria-label="Next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding-small about-section" id="about">
+        <div class="container grid-two-column">
+            <div class="about-image">
+                <img src="https://images.pexels.com/photos/9634534/pexels-photo-9634534.jpeg" alt="Craftsmanship">
+            </div>
+            <div class="about-content">
+                <h2 class="heading-1">Heritage meets innovation</h2>
+                <p class="body-large">For over three decades, we have dedicated ourselves to the art of shoemaking. Each pair is a testament to our commitment to quality, crafted by master artisans using traditional techniques refined over generations.</p>
+                <p class="body-large">We source only the finest materials from sustainable suppliers, ensuring that every detail reflects our values of excellence and responsibility.</p>
+                <a href="about.html" class="btn-secondary" style="text-decoration: none;">Learn our story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="heading-1">What our clients say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The quality is extraordinary. These shoes have become my go-to for important occasions. The attention to detail is remarkable."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Eleanor Richardson</p>
+                        <p class="author-title">Creative Director</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I've never experienced such comfort combined with elegance. Worth every penny. The craftsmanship is evident in every stitch."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Victoria Chen</p>
+                        <p class="author-title">Fashion Editor</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Maíson Solea has redefined my wardrobe. Each pair is a work of art that elevates my entire ensemble."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Isabella Moreau</p>
+                        <p class="author-title">Entrepreneur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section-padding-small newsletter-section" id="contact">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="heading-2">Join our circle</h2>
+                <p class="body-regular">Receive exclusive updates on new collections and special events</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-note body-small">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Maíson Solea</h3>
+                    <p class="body-small">Exceptional craftsmanship since 1990</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" id="size-guide-footer">Size Guide</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Care Instructions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="body-small">© 2025 Maíson Solea. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Size Guide Modal -->
+    <div class="modal" id="size-guide-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <h2 class="heading-2">Size Guide</h2>
+            <p class="body-regular">Find your perfect fit</p>
+            
+            <div class="size-guide-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>US</th>
+                            <th>UK</th>
+                            <th>EU</th>
+                            <th>CM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>2.5</td>
+                            <td>35</td>
+                            <td>22.0</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>3.5</td>
+                            <td>36</td>
+                            <td>22.5</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>4.5</td>
+                            <td>37</td>
+                            <td>23.5</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>5.5</td>
+                            <td>38</td>
+                            <td>24.0</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>6.5</td>
+                            <td>39</td>
+                            <td>25.0</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>7.5</td>
+                            <td>40</td>
+                            <td>25.5</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>8.5</td>
+                            <td>41</td>
+                            <td>26.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p class="body-small size-guide-note">For half sizes, we recommend sizing up. If you need assistance, our team is happy to help.</p>
+        </div>
+    </div>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget" id="chat-widget">
+        <button class="chat-button" id="chat-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <h3 class="body-regular">How can we assist you?</h3>
+                <button class="chat-close" id="chat-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="chat-message chat-message-received">
+                    <p class="body-small">Welcome to Maíson Solea. How may we help you today?</p>
+                </div>
+            </div>
+            <form class="chat-input-form" id="chat-form">
+                <input type="text" class="chat-input" id="chat-input" placeholder="Type your message...">
+                <button type="submit" class="chat-send">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
